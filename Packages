@@ -1,13 +1,13 @@
-Package: com.your.testpackage
+Package: com.mmr.testpackage
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: YourName <your@email.com>
-Filename: debs/test-package.deb
-Size: 760
-MD5sum: 85522b1b1d2714af4c06f5870e6f720f
-SHA1: 11a32b6441c1d0146d3a0c86cbad1bbf5ec423c9
-SHA256: f182f79c93aadc3e35dafe948b9ce3e927c63169bcb3085e2308955a95664fd0
+Maintainer: MMR <your@email.com>
+Filename: debs/com.mmr.testpackage_1.0_iphoneos-arm.deb
+Size: 1104
+MD5sum: 3728a9a8140d357d2aadb8e1351c7f42
+SHA1: 732a9e756ba48f73b54ce3a7a5063a54daddcf1a
+SHA256: 7ff3617fd5044add7470fe79d301368b0216b3793d837ab7b3afe6cb6f8a559f
 Section: Utilities
-Description: A test package for leo-lbn
+Description: Test package for leo-lbn
 Name: Test Package
 

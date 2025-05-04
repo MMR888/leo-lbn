@@ -1,7 +1,7 @@
-Package: com.your.testpackage
+Package: com.mmr.testpackage
 Name: Test Package
 Version: 1.0
 Architecture: iphoneos-arm
-Description: A test package for leo-lbn
-Maintainer: YourName <your@email.com>
+Description: Test package for leo-lbn
+Maintainer: MMR <your@email.com>
 Section: Utilities

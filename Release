@@ -4,4 +4,9 @@ Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
 Components: main
-Description: My Sileo repo
+MD5Sum:
+ f18d471b9c8130483d3ef20112c0ee70 407 Packages
+ 4855a80073767572272285f827ec07b1 313 Packages.gz
+SHA256:
+ 7f2af279967a81efb159b9c8a248d9999c2e2beacee0e61bd138a175e9489c3f 407 Packages
+ 116b294338c7dc79f502df392ef237ba36d3717affed98704337a68564f155f2 313 Packages.gz

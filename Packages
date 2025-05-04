@@ -1,0 +1,13 @@
+Package: com.your.testpackage
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: YourName <your@email.com>
+Filename: debs/test-package.deb
+Size: 760
+MD5sum: 85522b1b1d2714af4c06f5870e6f720f
+SHA1: 11a32b6441c1d0146d3a0c86cbad1bbf5ec423c9
+SHA256: f182f79c93aadc3e35dafe948b9ce3e927c63169bcb3085e2308955a95664fd0
+Section: Utilities
+Description: A test package for leo-lbn
+Name: Test Package
+

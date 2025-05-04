@@ -1,0 +1,7 @@
+Origin: leo-lbn
+Label: leo-lbn
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Description: My simplified Sileo repo

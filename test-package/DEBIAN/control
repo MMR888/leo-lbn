@@ -1,0 +1,7 @@
+Package: com.your.testpackage
+Name: Test Package
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A test package for leo-lbn
+Maintainer: YourName <your@email.com>
+Section: Utilities

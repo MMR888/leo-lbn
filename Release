@@ -5,6 +5,12 @@ Version: 1.0
 Architectures: iphoneos-arm
 Components: main
 MD5Sum:
+ $(md5 -q Packages) $(stat -f%z Packages) Packages
+ $(md5 -q Packages.gz) $(stat -f%z Packages.gz) Packages.gz
+SHA256:
+ $(shasum -a 256 Packages | cut -d' ' -f1) $(stat -f%z Packages) Packages
+ $(shasum -a 256 Packages.gz | cut -d' ' -f1) $(stat -f%z Packages.gz) Packages.gz
+MD5Sum:
  f18d471b9c8130483d3ef20112c0ee70 407 Packages
  4855a80073767572272285f827ec07b1 313 Packages.gz
 SHA256:

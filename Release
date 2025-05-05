@@ -1,14 +1,6 @@
 Origin: Leo's Repo
-Label: Leo's Repo
-Suite: stable
-Version: 1.0
-Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: Test repository
 MD5Sum:
  MD5        0 =
  MD5        0 =
-SHA256:
- 8fc57389f009168c0c72bae88ad2e1817969429b3c4b57133ecad21a3874043f      319 Packages
- 3dd253bd873aaec56800964d86827a4ad2218ed6f9318f5686a11dd5eb7b045d      319 Packages.gz

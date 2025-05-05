@@ -1,23 +1,16 @@
 #!/bin/bash
+# 计算 Packages/Packages.gz 的校验和并写入 Release
+echo "Updating Release checksums..."
 
 cd "$(dirname "$0")/.."
 
-# 计算校验值
-pkg_md5=$(md5 -q Packages)
-gz_md5=$(md5 -q Packages.gz)
-pkg_sha=$(shasum -a 256 Packages | cut -d' ' -f1)
-gz_sha=$(shasum -a 256 Packages.gz | cut -d' ' -f1)
-pkg_size=$(stat -f%z Packages)
-gz_size=$(stat -f%z Packages.gz)
+# 清空现有的校验和（macOS兼容写法）
+sed -i '' '/^MD5Sum:/,$d' Release
 
-# 追加到Release文件
-cat >> Release <<END
-MD5Sum:
- $pkg_md5 $pkg_size Packages
- $gz_md5 $gz_size Packages.gz
-SHA256:
- $pkg_sha $pkg_size Packages
- $gz_sha $gz_size Packages.gz
-END
+# 重新计算 MD5 和 SHA256
+echo "MD5Sum:" >> Release
+md5 Packages Packages.gz | awk '{print $4" "$2}' >> Release
+echo "SHA256:" >> Release
+shasum -a 256 Packages Packages.gz | awk '{print $1" "$2}' >> Release
 
-echo "校验信息已更新"
+echo "Done!"

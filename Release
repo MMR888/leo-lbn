@@ -2,11 +2,13 @@ Origin: leo-lbn
 Label: leo-lbn
 Suite: stable
 Version: 1.0
-Architectures: iphoneos-arm
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
+Description: Your repo description
 MD5Sum:
- f18d471b9c8130483d3ef20112c0ee70 407 Packages
- 4855a80073767572272285f827ec07b1 313 Packages.gz
+2488e54be6d02c5b90386db99488bd02 (Packages)
+156710a7ef7b2f32a2ad34958c8daf17 (Packages.gz)
 SHA256:
- 7f2af279967a81efb159b9c8a248d9999c2e2beacee0e61bd138a175e9489c3f 407 Packages
- 116b294338c7dc79f502df392ef237ba36d3717affed98704337a68564f155f2 313 Packages.gz
+8fc57389f009168c0c72bae88ad2e1817969429b3c4b57133ecad21a3874043f Packages
+c9230888982941a12682daef18d0e1ab8db29c8e271ade98064a4799d375122e Packages.gz

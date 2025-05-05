@@ -5,10 +5,10 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: Test repository for iOS 15
+Description: Test repository
 MD5Sum:
-MD5 (Packages) 2488e54be6d02c5b90386db99488bd02
-MD5 (Packages.gz) e1b35681bb5de0eb6e2c033b9a775955
+ MD5        0 2488e54be6d02c5b90386db99488bd02
+ MD5        0 70baa76c6d00a33cbc6c15b7f0b362d6
 SHA256:
-8fc57389f009168c0c72bae88ad2e1817969429b3c4b57133ecad21a3874043f Packages 
-f88b8042b74db1ab8ddefcbba0aba5352148b8e8c9883504981c6220f1903886 Packages.gz 
+ 8fc57389f009168c0c72bae88ad2e1817969429b3c4b57133ecad21a3874043f        0 
+ a6b3e29ad7e6e87b0a3bff2da3d308326666006596982e90187da2c88ec4b372        0 

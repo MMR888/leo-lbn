@@ -1,5 +1,5 @@
-Origin: Leo's Test Repo
-Label: Leo's Test Repo
+Origin: Leo's Repo
+Label: Leo's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -8,7 +8,7 @@ Components: main
 Description: Test repository for iOS 15
 MD5Sum:
 2488e54be6d02c5b90386db99488bd02 (Packages) MD5
-536ec0345d4fbbf88c4267aec9eb2606 (Packages.gz) MD5
+49c9c1278689bc9c6c844d663e6fa8d2 (Packages.gz) MD5
 SHA256:
 8fc57389f009168c0c72bae88ad2e1817969429b3c4b57133ecad21a3874043f Packages 8fc57389f009168c0c72bae88ad2e1817969429b3c4b57133ecad21a3874043f
-e029a3975020366a30419a9c310423a1675b74d4366e6d85cca2510d38a917f0 Packages.gz e029a3975020366a30419a9c310423a1675b74d4366e6d85cca2510d38a917f0
+a225be55acf8e6348f15b2610a46c6dc0a9a00c0cbea4297d7052d13a98e1337 Packages.gz a225be55acf8e6348f15b2610a46c6dc0a9a00c0cbea4297d7052d13a98e1337
